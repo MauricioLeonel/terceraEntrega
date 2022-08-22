@@ -2,6 +2,7 @@ const rutas = require('express').Router()
 const passport = require('passport')
 const {autorizationUser} = require('../middleware/autenticacion.js')
 const subirArchivo = require('../middleware/subirArchivo.js')
+const {transporter,mailoptions} = require('../utils/nodemailer.js')
 
 rutas.get('/',autorizationUser,(req,res)=>{
 	res.redirect('/register')
@@ -24,10 +25,18 @@ rutas.get('/logout',(req,res)=>{
 	})
 })
 
-rutas.post('/register',passport.authenticate('register',{failureRedirect:'/failed'}),(req,res)=>{
+rutas.post('/register',subirArchivo,passport.authenticate('register',{failureRedirect:'/failed'}),(req,res)=>{
 	res.redirect('/login')
 })
-rutas.post('/login',passport.authenticate('login',{failureRedirect:'/failedUser'}),(req,res)=>{
+rutas.post('/login',passport.authenticate('login',{failureRedirect:'/failedUser'}),async(req,res)=>{
+	mailoptions.subject='Nuevo registro'
+					mailoptions.html = `<p>${req.body.username}</p>
+					<p>${req.body.nombre}</p>
+					<p>${req.body.direccion}</p>
+					<p>${req.body.edad}</p>
+					<p>${req.body.telefono}</p>
+					`
+			const sendMail = await transporter.sendMail(mailoptions)
 	req.session.username = req.body.username
 	res.redirect('/api/productos')
 })

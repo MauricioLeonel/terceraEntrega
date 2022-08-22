@@ -1,7 +1,6 @@
 const passport = require('passport')
 const localStrategy = require('passport-local')
 const consultTypeBaseDao = require('../dao/usersDao')
-const {transporter,mailoptions} = require('../utils/nodemailer.js')
 
 const iniacializarPassport = ()=>{
 	passport.use('register',
@@ -13,18 +12,8 @@ const iniacializarPassport = ()=>{
 				const result = await userDao.getByUserUsername(username)
 
 				if(result.message){
-					// req.body.avatar = '/uploads/'+req.file.filename
-					req.body.avatar = '/uploads/'
+					req.body.avatar = '/uploads/'+req.file.filename
 					const dataNew = await userDao.saveUser(req.body)	
-					mailoptions.subject='Nuevo registro'
-					mailoptions.html = `<p>${dataNew.username}</p>
-					<p>${dataNew.nombre}</p>
-					<p>${dataNew.direccion}</p>
-					<p>${dataNew.edad}</p>
-					<p>${dataNew.telefono}</p>
-					`
-					const sendMail = await transporter.sendMail(mailoptions)
-
 					return cb(null, dataNew)
 				}
 				return cb(null,false,{message:'ya existe el usuario'})
