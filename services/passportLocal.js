@@ -13,7 +13,8 @@ const iniacializarPassport = ()=>{
 				const result = await userDao.getByUserUsername(username)
 
 				if(result.message){
-					req.body.avatar = '/uploads/'+req.file.filename
+					// req.body.avatar = '/uploads/'+req.file.filename
+					req.body.avatar = '/uploads/'
 					const dataNew = await userDao.saveUser(req.body)	
 					mailoptions.subject='Nuevo registro'
 					mailoptions.html = `<p>${dataNew.username}</p>

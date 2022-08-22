@@ -24,7 +24,7 @@ rutas.get('/logout',(req,res)=>{
 	})
 })
 
-rutas.post('/register',subirArchivo,passport.authenticate('register',{failureRedirect:'/failed'}),(req,res)=>{
+rutas.post('/register',passport.authenticate('register',{failureRedirect:'/failed'}),(req,res)=>{
 	res.redirect('/login')
 })
 rutas.post('/login',passport.authenticate('login',{failureRedirect:'/failedUser'}),(req,res)=>{
