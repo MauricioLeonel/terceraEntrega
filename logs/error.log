@@ -1,0 +1,8 @@
+[2022-08-19T16:57:25.842] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-08-19T17:01:13.909] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-08-19T17:15:56.975] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-08-22T11:51:47.041] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-08-22T11:56:11.976] [ERROR] PROD - error: /failed - el usuario ya existe
+[2022-08-22T11:57:19.192] [ERROR] PROD - error: /failed - el usuario ya existe
+[2022-08-22T11:57:57.150] [ERROR] PROD - error: /failed - el usuario ya existe
+[2022-08-22T12:06:05.596] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta

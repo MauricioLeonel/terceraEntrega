@@ -1,0 +1,1 @@
+[{"timestamp":1657110741191,"nombre":"Calculadora2","descripcion":"para hacer calculos","codigo":"calcu1000","foto":"https://cdn3.iconfinder.com/data/icons/education-209/64/plane-paper-toy-science-school-128.png","precio":100,"stock":200,"id":1}]
