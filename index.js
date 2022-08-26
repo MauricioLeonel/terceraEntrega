@@ -5,6 +5,7 @@ const passport = require('passport')
 const MongoStore = require('connect-mongo')
 const inicializarPassport = require('./services/passportLocal.js')
 const session = require('express-session')
+const cors = require('cors')
 const cookieParser = require('cookie-parser')
 const app = express()
 require('dotenv').config()
@@ -29,6 +30,7 @@ const logger = log4js.getLogger('PROD')
 
 db()//esta cosa magica abre la conexion con mongo
 app.use(express.json())
+app.use(cors())
 app.use(express.urlencoded({ extended: true }))
 app.use(cookieParser())
 app.use(session({
