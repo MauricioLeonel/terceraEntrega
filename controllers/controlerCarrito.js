@@ -12,7 +12,12 @@ const nuevoCarrito = async (req,res)=>{
 
 const finalizarCarrito = async (req,res)=>{
 	const {body:{productos}} = req
+
 	const datosUser = req.user.filter(e=>e.username == req.session.username)
+
+	console.log(datosUser)
+	// console.log(req.user.filter(e=>e.username == req.session.username))
+
 	mailoptions.subject=`Nuevo pedido de:${datosUser[0].username} - ${datosUser[0].nombre}`
 	mailoptions.html=''
 	productos.map(e=>{

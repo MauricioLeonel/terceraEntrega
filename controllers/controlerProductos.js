@@ -24,7 +24,8 @@ const consultarAllProductos = async (req,res)=>{
 
 	const data2 = JSON.parse(data)
 	// console.log(data2)
-	res.render('productos',{data2})	
+	// res.render('productos',{data2})	//lo saque para hacer pruebas
+	res.send(result)
 }
 
 
