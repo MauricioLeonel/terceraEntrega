@@ -1,19 +1,25 @@
 doctype html
 html(lang="es")
 	head
-
+	link(href="/styles/registro/index.css" rel="stylesheet")
 //- title login
 	
 body
-	h1 Registro
-	form(method="POST" action="/register" enctype="multipart/form-data")
-		input(type="email" name="username" placeholder="email")
-		input(type="text" name="password" placeholder="password")
-		input(type="text" name="nombre" placeholder="nombre")
-		input(type="text" name="direccion" placeholder="direccion")
-		input(type="number" name="edad" placeholder="edad")
-		input(type="number" name="telefono" placeholder="telefono")
-		input(type="file" name="avatar")
-		input(type="submit")
+	main(class='mainPrincipal')
+		section(class="seccionTitle")
+			h1 Registro
+			a(href="/login") ir a login
 
-	a(href="/login") ir a login
+		section(class="seccionRegistro")
+			form(method="POST" action="/register" enctype="multipart/form-data")
+				input(type="email" name="username" placeholder="email")
+				input(type="password" name="password" placeholder="password")
+				input(type="text" name="nombre" placeholder="nombre")
+				input(type="text" name="direccion" placeholder="direccion")
+				input(type="number" name="edad" placeholder="edad")
+				input(type="number" name="telefono" placeholder="telefono")
+				input(type="file" name="avatar")
+				input(type="submit")
+
+
+

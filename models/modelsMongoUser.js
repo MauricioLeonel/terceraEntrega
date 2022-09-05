@@ -9,6 +9,7 @@ const schemaUser = mongoose.Schema({
 	edad:String,
 	telefono:String,
 	avatar:String,
+	administrador:{type:Boolean,default: false}
 })
 
 schemaUser.pre('save',function(next){

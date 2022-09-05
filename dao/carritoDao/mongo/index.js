@@ -24,15 +24,19 @@ class Carrito extends ContainerMongo{
 		// console.log(element,id_prod)
 		try{
 			let carrito = await this.getById(id_prod,'carrito')
-			
-			carrito[0].producto.push(element)
+
+			if(carrito[0].producto.findIndex(e=>e._id === element._id) === -1){
+				carrito[0].producto.push(element)
+				return await this.updateById(...carrito,'carrito')
+			}
+
+			carrito[0].producto.map(e=>{
+				if(e._id === element._id){
+					e.cantidad +=1
+				}
+			})
+
 			return await this.updateById(...carrito,'carrito')
-			//filtro 
-			// const result = element.producto.filter(e=> e._id !== parseInt(id_prod) )
-			// //asigno completo
-			// element.producto = result
-			// //actualizo
-			// return await this.updateById(element)
 
 		}catch(e){	
 			return e
@@ -66,3 +70,13 @@ class Carrito extends ContainerMongo{
 
 module.exports =  Carrito
 
+
+
+// return 'oki'
+
+			//filtro 
+			// const result = element.producto.filter(e=> e._id !== parseInt(id_prod) )
+			// //asigno completo
+			// element.producto = result
+			// //actualizo
+			// return await this.updateById(element)

@@ -1,9 +1,14 @@
+const consultTypeBaseDao = require('../dao/usersDao')
 require('dotenv').config()
 
-const autenticacionUser = (req,res,next)=>{
-	const administrador = true
-	if(!administrador){
-		return res.status(401).json({msj:'usuario no permitido'})
+const autenticacionUser = async (req,res,next)=>{
+	// const administrador = true
+	const userDao = await consultTypeBaseDao('mongo')
+	const result = await userDao.getByUserUsername(req.session.username)
+
+	if(!result.administrador){
+		// return res.status(401).json({msj:'usuario no permitido'})
+		return res.render('noauthorized',{data:{ruta:'No autorizado: VOLVER->'}})
 	}
 	next()
 }

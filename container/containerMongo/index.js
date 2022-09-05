@@ -14,6 +14,7 @@ class Container {
 	insertData = async(data)=>{
 		// console.log(data)
 		const id = await this.getAll()
+		// console.log(id)
 		let id2
 		if(id.length > 0){
 			id2 = id[id.length-1]._id + 1
@@ -21,6 +22,7 @@ class Container {
 			id2 = 1
 		}
 		data = {...data, _id:id2}
+		console.log(data)
 		const result = new this.models(data)
 
 		return await result.save()

@@ -1,0 +1,17 @@
+include ../productos/index.pug
+
+link(rel='stylesheet' href="../styles/chat/index.css")
+script(src="/socket.io/socket.io.js")
+
+section.mainChat
+	div.mensaje
+		h1 Enviamos un mensaje ahora
+
+		form(method="POST" id="formuChat" )
+			input(type='text' name="mensaje" value="escribe tu mensaje")
+			input(type='submit')
+	div.historialMensaje
+		//- h1 Historial
+		
+
+script(src="/script/scriptChat.js")

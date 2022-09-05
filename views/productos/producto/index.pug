@@ -1,0 +1,27 @@
+include ../index.pug 
+include ../carrito/index.pug 
+link(rel="stylesheet" href="../styles/cardProducto/index.css")
+
+unless data2[0]
+  .sinElementos
+  h3 No se encontraron productos
+if data2[0]
+  .acomodarElemento
+    .contenedorProductos
+      each val in data2
+        div(class="cardProd")
+          div(class="imgProd")
+            img(src=val.foto)
+          .elementos
+            p(id="codigo")= val.nombre + '-' + val.codigo
+            p= val.descripcion
+            p= val.precio
+            //- p= val.foto
+            //- p=
+            
+            button(class='agregar') agregar
+
+
+
+    //- h3 Titulo
+script(src='../script/scriptproductos.js')

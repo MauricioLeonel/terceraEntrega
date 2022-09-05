@@ -1,0 +1,6 @@
+.mainCarrito{
+	position: absolute;
+	right:80px;
+	top: 20px;
+	min-width: 150px;
+}

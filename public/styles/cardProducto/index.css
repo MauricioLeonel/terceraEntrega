@@ -1,0 +1,59 @@
+.acomodarElemento{
+	display: flex;
+	justify-content: center;
+}
+
+
+.contenedorProductos{
+	display: flex;
+	justify-content: space-around;
+	max-width: 800px;
+	width: 100%;
+}
+
+.cardProd{
+	position: relative;
+	margin: 5px;
+}
+
+.elementos{
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	z-index: -2;
+	left: 5px;
+	transition: top 1s;
+}
+.imgProd{
+
+}
+
+.imgProd img{
+	width: 100%;
+	max-width: 127px;
+	max-height: 127px;
+}
+
+.imgProd::before{
+	content: '';
+	width: 130px;
+	height: 120px;
+	background-color: #fff;
+	position: absolute;
+	z-index: -1;
+	top: 10px;
+}
+
+.imgProd:hover ~ .elementos{
+	top: 130px;
+	transition: top 1s;
+}
+
+.elementos:hover{
+	top: 130px;
+	transition: top 1s;
+}
+
+
+
+

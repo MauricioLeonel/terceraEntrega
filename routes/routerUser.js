@@ -3,6 +3,7 @@ const passport = require('passport')
 const {autorizationUser} = require('../middleware/autenticacion.js')
 const subirArchivo = require('../middleware/subirArchivo.js')
 const {transporter,mailoptions} = require('../utils/nodemailer.js')
+const {updateUserNow,updateUser} = require('../controllers/controlerUser.js')
 
 rutas.get('/',autorizationUser,(req,res)=>{
 	res.redirect('/register')
@@ -25,18 +26,19 @@ rutas.get('/logout',(req,res)=>{
 	})
 })
 
-rutas.post('/register',subirArchivo,passport.authenticate('register',{failureRedirect:'/failed'}),(req,res)=>{
+rutas.post('/register',subirArchivo,passport.authenticate('register',{failureRedirect:'/failed'}),async (req,res)=>{
+	mailoptions.subject='Nuevo registro'
+		mailoptions.html = `<p>${req.body.username}</p>
+		<p>${req.body.nombre}</p>
+		<p>${req.body.direccion}</p>
+		<p>${req.body.edad}</p>
+		<p>${req.body.telefono}</p>
+					`
+	const sendMail = await transporter.sendMail(mailoptions)
 	res.redirect('/login')
 })
-rutas.post('/login',passport.authenticate('login',{failureRedirect:'/failedUser'}),async(req,res)=>{
-	mailoptions.subject='Nuevo registro'
-					mailoptions.html = `<p>${req.body.username}</p>
-					<p>${req.body.nombre}</p>
-					<p>${req.body.direccion}</p>
-					<p>${req.body.edad}</p>
-					<p>${req.body.telefono}</p>
-					`
-			const sendMail = await transporter.sendMail(mailoptions)
+rutas.post('/login',passport.authenticate('login',{failureRedirect:'/failedUser'}),(req,res)=>{
+	
 	req.session.username = req.body.username
 	res.redirect('/api/productos')
 })
@@ -51,6 +53,9 @@ rutas.get('/failedUser',(req,res)=>{
 	res.json({message:'usuario o contraseña incorrecta'})
 })
 
+
+rutas.get('/updateUser',updateUserNow)
+rutas.post('/updateUser/:id',updateUser)
 
 
 

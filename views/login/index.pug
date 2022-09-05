@@ -1,14 +1,18 @@
 doctype html
 html(lang="es")
 	head
-
+	link(rel="stylesheet" href="styles/registro/index.css")
 //- title login
 	
 body
-	h1 Login
-	form(method="POST" action="/login")
-		input(type="email" name="username" placeholder="email")
-		input(type="text" name="password" placeholder="password")
-		input(type="submit")
+	main(class="mainPrincipal")
+		section(class="seccionTitle")
+			h1 Login
+			a(href="/register") ir a registro
+		section(class="seccionRegistro")
+			form(method="POST" action="/login")
+				input(type="email" name="username" placeholder="email")
+				input(type="password" name="password" placeholder="password")
+				input(type="submit")
 
-	a(href="/register") ir a registro
+	

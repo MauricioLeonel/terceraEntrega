@@ -1,0 +1,31 @@
+include ../index.pug 
+
+
+//- link(href="../../styles/registro/index.css" rel="stylesheet")
+link(rel="stylesheet" href="../../styles/productos/index.css")
+
+
+section(class="seccionRegistro")
+		form(method="POST" action="/updateUser/"+data.result._id)
+			input(type="email" name="username" placeholder="email" value=data.result.username style='display:none')
+			input(type="password" name="password" placeholder="password" value=data.result.password style='display:none')
+			input(type="text" name="nombre" placeholder="nombre" value=data.result.nombre)
+			input(type="text" name="direccion" placeholder="direccion" value=data.result.direccion)
+			input(type="number" name="edad" placeholder="edad" value=data.result.edad)
+			input(type="number" name="telefono" placeholder="telefono" value=data.result.telefono )
+			input(type="text" name="avatar" value=data.result.avatar style='display:none')
+
+			input(type="submit")
+
+//- .containerNewProducto
+//- 	section(class="seccionRegistro registroProducto")
+//- 		form(method="POST" action="/api/productos" )
+//- 			input(type="text" name="username" placeholder="nombre" required)
+//- 			input(type="password" name="password" placeholder="password" required)
+//- 			input(type="text" name="nombre" placeholder="nombre" required)
+//- 			input(type="text" name="direccion" placeholder="direccion" required)
+//- 			input(type="number" name="edad" placeholder="edad" required)
+//- 			input(type="number" name="telefono" placeholder="telefono" required)
+//- 			input
+
+//- 			input(type="submit")

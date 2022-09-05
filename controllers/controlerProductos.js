@@ -7,8 +7,14 @@ const nuevoProducto = async (req,res)=>{
 	const {body:{nombre, descripcion, codigo, foto, precio, stock}} = req
 	const database = await consultTypeBaseDaoProducto('mongo')
 	const result = await database.saveProducto({timestamp:new Date(timestamp) , nombre, descripcion, codigo, foto, precio, stock})
-	res.json(result)
+	// res.json(result)
+	res.redirect('productos/new')
 }
+
+const nuevoProductoRender=async (req,res)=>{
+	res.render('productos/newProducto',{data:{ruta:'Nuevo Producto'}})
+}
+
 const consultaProducto = async (req,res)=>{
 	const {id} = req.params	
 	const database = await consultTypeBaseDaoProducto('mongo')
@@ -24,7 +30,7 @@ const consultarAllProductos = async (req,res)=>{
 
 	const data2 = JSON.parse(data)
 	// console.log(data2)
-	res.render('productos',{data2})	
+	res.render('productos/producto',{data2,data:{ruta:'Productos'}})	
 }
 
 
@@ -42,4 +48,4 @@ const borrarProducto = async (req,res)=>{
 }
 
 
-module.exports = {nuevoProducto,consultaProducto,consultarAllProductos,actualizaProducto,borrarProducto}
+module.exports = {nuevoProducto,consultaProducto,consultarAllProductos,actualizaProducto,borrarProducto,nuevoProductoRender}

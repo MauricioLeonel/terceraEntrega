@@ -1,0 +1,13 @@
+include ../index.pug
+link(rel="stylesheet" href="../styles/dashboard/index.css")
+
+section(class='mainBienvenida')
+	h1 Bienvenido 
+		span= data.user
+	p aqui podra comprar productos
+	p seleccione 
+		b productos en el menu para ver que hay en el catalogo
+
+	br
+	b en caso de que quieras modificar tu perfil 
+		a(href="/updateUser") haz click aca

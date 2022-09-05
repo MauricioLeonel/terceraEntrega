@@ -2,28 +2,26 @@ doctype html
 html(lang="en")
   head
     title prueba
-    style
-      include ../estilos/index.css
+    link(rel="stylesheet" href="../styles/registro/index.css")
+    link(rel="stylesheet" href="../styles/productos/index.css")
   body
-    h1 Vista de Productos con PUG
-    //- button(id="")
-    unless data2[0]
-      .sinElementos
-        h3 No se encontraron productos
-    if data2[0]
-      .contenedor
-        div
-          h3 Titulo
-          each val in data2
-            .elementos
-              p(id="codigo")= val.nombre + '-' + val.codigo
-              p= val.descripcion
-              p= val.precio
-              p= val.foto
-              //- p=
-              //- img(src=val.thumbnail)
-              button(id='agregar') agregar
+    main(class="mainPrincipal mainProductos")
 
-    a(href="/logout") cerrar sesion
-    include carrito/index.pug 
-    script(src='../script/scriptproductos.js')
+     header(class="header")
+        div(class='headerTitle')
+            h1= data.ruta
+            a(href="/logout") cerrar sesion
+        nav(class='headerNav')
+            a(href="/api/info") info
+            a(href="/api/productos") productos
+            a(href="/api/productos/new") + Productos
+            a(href="/api/dashboard") dashboard
+            a(href="/api/chats") chats
+
+
+
+
+    //- include producto/index.pug 
+    //- include carrito/index.pug 
+
+    

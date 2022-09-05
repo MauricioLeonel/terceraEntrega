@@ -1,0 +1,18 @@
+.mainProductos{
+	display: flex;
+	height: 20vh;
+	justify-content: flex-start;
+}
+
+.header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+
+.containerNewProducto{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}

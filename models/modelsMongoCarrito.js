@@ -11,6 +11,7 @@ const modelsCarrito = mongoose.Schema({
 	codigo:String,
 	precio:Number,
 	stock:Number,
+	cantidad:Number,
 	timestamp:{ type: Date, default: Date.now }
 })]
 })

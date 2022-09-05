@@ -7,3 +7,24 @@
 [2022-08-22T11:57:57.150] [ERROR] PROD - error: /failed - el usuario ya existe
 [2022-08-22T12:06:05.596] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
 [2022-08-26T09:49:34.077] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-01T15:09:26.334] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-01T15:28:32.000] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-02T15:28:36.959] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-02T15:28:47.858] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-02T22:34:26.278] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-05T03:40:51.402] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-05T05:51:43.188] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-05T05:51:47.638] [ERROR] PROD - error: /failed - el usuario ya existe
+[2022-09-05T05:53:27.690] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 1 }
+[2022-09-05T05:53:45.657] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 2 }
+[2022-09-05T05:53:45.660] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 2 }
+[2022-09-05T06:03:24.296] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-05T06:03:30.152] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-05T06:03:38.478] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-05T14:56:43.438] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 1 }
+[2022-09-05T14:56:43.440] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 1 }
+[2022-09-05T14:56:43.441] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 1 }
+[2022-09-05T14:56:48.983] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 2 }
+[2022-09-05T14:56:48.987] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 2 }
+[2022-09-05T14:56:48.988] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 2 }
+[2022-09-05T14:56:48.989] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 2 }

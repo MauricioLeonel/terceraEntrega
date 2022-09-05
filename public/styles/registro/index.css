@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: monospace;
+}
+
+
+
+.seccionTitle{
+	display: flex;
+	flex-direction: column;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	border: 1px solid #000;
+	padding: 3px;
+	margin-top: 20px;
+	transition: background 1s;
+
+}
+
+a:hover{
+	background-color: #ffc800eb;
+	transition: background 1s;
+
+}
+
+.mainPrincipal{
+	display: flex;
+	width: 80%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+
+.seccionRegistro{
+	width: 70%;
+	display: flex;
+	justify-content: center;
+}
+
+.seccionRegistro form{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+.seccionRegistro form input{
+	margin: 5px;
+}
+.seccionRegistro form input[type="submit"]{
+	padding: 5px;
+	width: 30%;
+	border: transparent;
+	border-radius: 5px;
+	transition: background 1s;
+
+}
+
+.seccionRegistro form input[type="submit"]:hover{
+	color: #fff;
+	background-color:#ffc800eb ;
+	border: transparent;
+	transition: background 1s;
+}
+
+
+.seccionRegistro form input[type="text"],
+.seccionRegistro form input[type="number"],
+.seccionRegistro form input[type="email"],
+.seccionRegistro form input[type="password"]{
+	padding: 3px;
+	border-radius: 3px;
+	border: 1px solid;
+}

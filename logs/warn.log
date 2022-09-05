@@ -10,3 +10,247 @@
 [2022-08-22T12:06:05.596] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
 [2022-08-26T09:47:48.973] [WARN] PROD - warn: GET - /l
 [2022-08-26T09:49:34.077] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-01T15:09:21.248] [WARN] PROD - warn: GET - /favicon.ico
+[2022-09-01T15:09:26.334] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-01T15:28:32.000] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-02T14:46:31.672] [WARN] PROD - warn: GET - /favicon.ico
+[2022-09-02T15:28:36.959] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-02T15:28:47.858] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-02T15:33:46.821] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-02T15:33:49.980] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-02T15:34:22.590] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-02T15:34:50.973] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-02T15:35:04.602] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-02T15:36:40.031] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-02T15:36:56.310] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-02T15:38:56.369] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-02T15:39:11.312] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-02T15:40:09.512] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-02T15:40:14.766] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-02T16:00:17.926] [WARN] PROD - warn: GET - /api/info
+[2022-09-02T16:00:49.449] [WARN] PROD - warn: GET - /api/info
+[2022-09-02T16:32:28.179] [WARN] PROD - warn: GET - /favicon.ico
+[2022-09-02T16:32:29.164] [WARN] PROD - warn: GET - /favicon.ico
+[2022-09-02T16:32:30.477] [WARN] PROD - warn: GET - /favicon.ico
+[2022-09-02T22:31:14.895] [WARN] PROD - warn: GET - /favicon.ico
+[2022-09-02T22:34:26.278] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-03T14:47:40.682] [WARN] PROD - warn: GET - /favicon.ico
+[2022-09-03T16:28:40.659] [WARN] PROD - warn: GET - /favicon.ico
+[2022-09-04T14:35:17.983] [WARN] PROD - warn: GET - /favicon.ico
+[2022-09-04T23:51:50.509] [WARN] PROD - warn: GET - /favicon.ico
+[2022-09-05T00:38:41.566] [WARN] PROD - warn: GET - /api/styles/cardProducto/index.css
+[2022-09-05T00:38:41.568] [WARN] PROD - warn: GET - /api/styles/carrito/index.css
+[2022-09-05T00:38:41.574] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:38:41.779] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:38:41.783] [WARN] PROD - warn: GET - /api/script/scriptproductos.js
+[2022-09-05T00:38:41.862] [WARN] PROD - warn: GET - /api/styles/cardProducto/index.css
+[2022-09-05T00:41:39.264] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:41:39.266] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:41:49.417] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:41:49.419] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:42:06.716] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:42:06.716] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:42:16.237] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:42:16.238] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:42:25.068] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:42:25.070] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:42:55.602] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:42:55.605] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:43:47.487] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:43:47.487] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:43:54.822] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:43:54.823] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:44:14.488] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:44:14.493] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:44:39.812] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:44:39.816] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:44:52.037] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:44:52.038] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:45:17.273] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:45:17.275] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:47:14.784] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:47:14.787] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:47:18.706] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:47:18.835] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:47:24.984] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:47:24.985] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:47:39.378] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:47:39.381] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:47:49.587] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:47:49.589] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:48:03.815] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:48:03.816] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:49:10.333] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:49:10.334] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:49:36.882] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:49:36.951] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:50:05.438] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:50:05.520] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:50:19.940] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:50:20.030] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:50:46.882] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:50:46.886] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:51:52.304] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:51:52.386] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:52:29.300] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:52:29.390] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:53:06.341] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:53:06.428] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:53:39.007] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:53:39.087] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:54:14.774] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:54:14.849] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:54:17.174] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:54:17.177] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:54:51.555] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:54:51.616] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:56:12.588] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:56:12.672] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:56:31.998] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:56:32.000] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:56:59.158] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:56:59.162] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:57:00.033] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:57:00.034] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:59:10.161] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:59:10.254] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:59:19.655] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:59:19.857] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:59:41.297] [WARN] PROD - warn: GET - /api/api/productos/new
+[2022-09-05T00:59:57.551] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:59:57.597] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T00:59:59.711] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T00:59:59.712] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T01:00:04.979] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T01:00:04.983] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T01:00:29.028] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T01:00:29.105] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T01:01:05.923] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T01:01:06.020] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T01:03:22.557] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T01:03:22.560] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T01:03:24.496] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T01:03:24.577] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T01:03:31.220] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T01:03:31.221] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T01:07:12.128] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T01:07:12.128] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T01:07:28.622] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T01:07:28.625] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T01:09:20.251] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T01:09:20.308] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T01:47:05.523] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T01:47:05.734] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T01:47:28.081] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T01:47:28.415] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T01:48:05.697] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T01:48:05.774] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T01:48:16.364] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T01:48:16.453] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T01:55:41.444] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T01:55:41.450] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T02:06:53.960] [WARN] PROD - warn: GET - /updateUserNow
+[2022-09-05T02:27:28.764] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T02:27:28.766] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T02:27:40.814] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T02:27:40.897] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T02:27:43.375] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T02:27:43.478] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T02:38:52.184] [WARN] PROD - warn: GET - /updateUser/1
+[2022-09-05T02:39:34.787] [WARN] PROD - warn: GET - /updateUser/1
+[2022-09-05T02:39:54.361] [WARN] PROD - warn: GET - /updateUser/1
+[2022-09-05T02:42:10.838] [WARN] PROD - warn: GET - /updateUser/1
+[2022-09-05T02:43:20.803] [WARN] PROD - warn: GET - /updateUser/1
+[2022-09-05T02:52:42.104] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T02:52:42.107] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T02:52:45.157] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T02:52:45.293] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T02:54:23.412] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T02:54:23.739] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T02:54:26.163] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T02:54:26.226] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T02:55:28.694] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T02:55:28.841] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T02:55:56.957] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T02:55:57.014] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T03:40:51.402] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-05T03:52:41.962] [WARN] PROD - warn: GET - /favicon.ico
+[2022-09-05T03:58:27.174] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T03:58:27.183] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T03:58:38.428] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T03:58:38.432] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T03:59:24.231] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T03:59:24.304] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T03:59:42.152] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T03:59:42.226] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T03:59:50.504] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T03:59:50.796] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T04:01:00.151] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T04:01:00.270] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T04:01:22.479] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T04:01:22.557] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T04:02:26.996] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T04:02:26.998] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T04:02:34.370] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T04:02:34.377] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T04:03:10.836] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T04:03:10.838] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T04:03:38.986] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T04:03:38.990] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T04:11:42.834] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T04:11:42.930] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T04:23:13.487] [WARN] PROD - warn: GET - /socket.io/socket.io.js
+[2022-09-05T04:26:39.025] [WARN] PROD - warn: GET - /socket.io/socket.io.js
+[2022-09-05T05:51:43.188] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-05T05:51:47.638] [ERROR] PROD - error: /failed - el usuario ya existe
+[2022-09-05T05:53:14.028] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T05:53:14.033] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T05:53:16.379] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T05:53:16.497] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T05:53:27.690] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 1 }
+[2022-09-05T05:53:45.657] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 2 }
+[2022-09-05T05:53:45.660] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 2 }
+[2022-09-05T05:54:08.082] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T05:54:08.086] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T05:54:13.184] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T05:54:13.188] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T06:03:24.296] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-05T06:03:30.152] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-05T06:03:38.478] [ERROR] PROD - error: /failedUser - usuario o contraseña incorrecta
+[2022-09-05T06:07:20.388] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T06:07:20.391] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T14:42:10.243] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T14:42:10.355] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T14:42:16.648] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T14:42:16.746] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T14:51:15.169] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T14:51:15.175] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T14:51:27.194] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T14:51:27.197] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T14:51:49.467] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T14:51:49.469] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T14:51:58.882] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T14:51:58.998] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T14:52:01.114] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T14:52:01.117] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T14:53:06.546] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T14:53:06.550] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T14:56:43.438] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 1 }
+[2022-09-05T14:56:43.440] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 1 }
+[2022-09-05T14:56:43.441] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 1 }
+[2022-09-05T14:56:48.983] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 2 }
+[2022-09-05T14:56:48.987] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 2 }
+[2022-09-05T14:56:48.988] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 2 }
+[2022-09-05T14:56:48.989] [ERROR] PROD - error: /api/chats - E11000 duplicate key error collection: test.chats index: _id_ dup key: { _id: 2 }
+[2022-09-05T14:57:24.264] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T14:57:24.380] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T14:57:25.235] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T14:57:25.237] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T14:57:46.629] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T14:57:46.630] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T15:07:55.533] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T15:07:55.542] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T15:08:13.946] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T15:08:13.954] [WARN] PROD - warn: GET - /api/styles/productos/index.css
+[2022-09-05T15:10:33.805] [WARN] PROD - warn: GET - /api/styles/registro/index.css
+[2022-09-05T15:10:33.809] [WARN] PROD - warn: GET - /api/styles/productos/index.css

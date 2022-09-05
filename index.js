@@ -14,10 +14,17 @@ const configLog = require('./utils/configLog.js')
 const log4js = require('log4js')
 const os = require('os')
 const cluster = require('cluster')
+const server = require('http').createServer(app)//pa' el socket
+const io = require('socket.io')(server)//pa' el chat
+
 
 const routerProductos = require('./routes/routerProductos.js')
 const routerCarritos = require('./routes/routerCarritos.js')
 const routerUser = require('./routes/routerUser.js')
+const routerInfo = require('./routes/routerInfo.js')
+const routerDashboard = require('./routes/routerDashboard.js')
+const routerChats = require('./routes/routerChats.js')
+
 
 
 let port = process.env.PORT ? process.env.PORT : '8080'
@@ -58,18 +65,21 @@ if(typeMode === 'cluster' && cluster.isPrimary){
 	app.use((req,res,next)=>{
 		logger.info(`info: ${req.method} - ${req.path}`)
 		req.logger = logger
+		req.io = io
 		next()
 	})
 	app.use('/',routerUser)
 	app.use('/api/productos',routerProductos)
 	app.use('/api/carritos',routerCarritos)
+	app.use('/api/info',routerInfo)
+	app.use('/api/dashboard',routerDashboard)
+	app.use('/api/chats',routerChats)
 	app.get('/*',(req,res,next)=>{
 			logger.warn(`warn: ${req.method} - ${req.path}`)
 			next()
 		})
 
-
-	app.listen(port,()=>{
+	server.listen(port,()=>{
 		console.log('escuchando todo oki')
 	})
 

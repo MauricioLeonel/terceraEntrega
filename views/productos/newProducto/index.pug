@@ -1,0 +1,15 @@
+link(href="../../styles/registro/index.css" rel="stylesheet")
+link(rel="stylesheet" href="../../styles/productos/index.css")
+
+include ../index.pug 
+.containerNewProducto
+	section(class="seccionRegistro registroProducto")
+		form(method="POST" action="/api/productos" )
+			input(type="text" name="nombre" placeholder="nombre" required)
+			input(type="text" name="descripcion" placeholder="descripcion" required)
+			input(type="text" name="codigo" placeholder="codigo" required)
+			input(type="text" name="foto" placeholder="foto" required)
+			input(type="number" name="precio" placeholder="precio" required)
+			input(type="number" name="stock" placeholder="stock" required)
+
+			input(type="submit")

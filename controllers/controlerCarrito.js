@@ -13,6 +13,7 @@ const nuevoCarrito = async (req,res)=>{
 const finalizarCarrito = async (req,res)=>{
 	const {body:{productos}} = req
 	const datosUser = req.user.filter(e=>e.username == req.session.username)
+	console.log(datosUser)
 	mailoptions.subject=`Nuevo pedido de:${datosUser[0].username} - ${datosUser[0].nombre}`
 	mailoptions.html=''
 	productos.map(e=>{
@@ -21,21 +22,21 @@ const finalizarCarrito = async (req,res)=>{
 	await transporter.sendMail(mailoptions)
 
 	const accountSid = process.env.ACCOUNT_SID;
-    const authToken = process.env.AUTH_TOKEN;
-    const client = require('twilio')(accountSid, authToken);
-	
-    client.messages
-      .create({
-         body: 'el pedido ingreso',
-         from: '+13252413165',
-         to: '+541137597962'
-       })
-      .then(
-      	message => console.log('mensaje enviado')
-      )
-      .catch(e=>console.log(e))
+  const authToken = process.env.AUTH_TOKEN;
+  const client = require('twilio')(accountSid, authToken);
 
-     res.send('todo oki')
+  client.messages
+    .create({
+       body: 'el pedido ingreso',
+       from: '+13252413165',
+       to: '+541137597962'
+     })
+    .then(
+    	message => console.log('mensaje enviado')
+    )
+    .catch(e=>console.log(e))
+
+   res.send('todo oki')
 }
 
 const borraCarrito = async (req,res)=>{
@@ -48,20 +49,26 @@ const borraCarrito = async (req,res)=>{
 
 const nuevoProdCarrito = async (req,res)=>{
 	const {params:{id},body:{nroCarrito}} = req // este perro ahora es un string
-	// const {body:{nroCarrito}} = req
-	// console.log(req.body)
 	const database = await consultTypeBaseDaoCarrito('mongo')
 	const databaseProd = await consultTypeBaseDaoProducto('mongo')
-	// console.log(nroCarrito)
 
 	const producto = await databaseProd.getByProductoKey(id)
-	const idCarrito = 1 // fuerzo al primer carrito
+	// const idCarrito = 1 // fuerzo al primer carrito
+
 	if(producto.message){
 		res.json({error:producto.message})
 	}
-	const data = await database.updateByCarritoId(...producto,nroCarrito)
+
+	let newProducto = JSON.stringify(producto)
+	let newProducto2 = JSON.parse(newProducto)
+	newProducto2[0].cantidad = 1
+
+	const data = await database.updateByCarritoId(...newProducto2,nroCarrito)
 	res.json(data)
 }
+
+
+
 const obtenerProdCarrito = async (req,res)=>{
 	const {params:{id}} = req
 	const database = await consultTypeBaseDaoCarrito('mongo')
