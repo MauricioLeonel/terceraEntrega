@@ -3,17 +3,17 @@
 # tenes que configurar el archivo .ENV 
 
 
-PORT=8080
-typeMode=fork||cluster
-URI_MONGODB=
-URI_SESSIONDB=
+#PORT=8080
+#typeMode=fork||cluster
+#URI_MONGODB=
+#URI_SESSIONDB=
 
-HOSTMAIL=
-PORTMAIL=
-USERMAIL=
-PASSMAIL=
-USERMAILADMIN=
-typeMode=
+#HOSTMAIL=
+#PORTMAIL=
+#USERMAIL=
+#PASSMAIL=
+#USERMAILADMIN=
+#typeMode=
 
-ACCOUNT_SID = 
-AUTH_TOKEN = 
+#ACCOUNT_SID = 
+#AUTH_TOKEN = 
